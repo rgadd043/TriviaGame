@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+<!-- CSS Reset -->
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<!-- Bootstrap File -->
+<link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!-- CSS Style Sheet -->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto|Source+Sans+Pro|Faster+One" rel="stylesheet">
+<!-- JQuery -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<!-- JavaScript File -->
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+	
+<title>Trivia Game</title>
+</head>
+<body>
+<div class="container">
+	<div id="header">
+		<h1 id="titleText">Fast Trivia</h1>
+	</div>
+<!-- Div for Start Button -->
+	<div id="startButtonDiv" class="gameContentStyle">
+<!-- Start Button (hidden after click) -->
+		<button type="button" class="btn text-center" id="startGameButton"><h2 id="startButtonText">START</h2></button>
+	</div>
+<!-- Game Questions Div  -->
+<div class="gameContentStyle gameSection" style="display: none;">
+<!-- Game Questions Div  -->
+		<h1 id="timerCountDown">Time Remaining: 15 </h1>
+<!-- First Set Questions/Answers (revealed after start click) -->
+		<p class="gameQuestions"> Where would you find the Sea of Tranquility?</p>
+		<label class="radio-inline"><input type="radio" value="1" name="q1" class="radioButton">The Moon</label>
+		<label class="radio-inline"><input type="radio" value="0" name="q1" class="radioButton">Greece</label>
+		<label class="radio-inline"><input type="radio" value="0" name="q1" class="radioButton">Madagascar</label>
+		<label class="radio-inline"><input type="radio" value="0" name="q1" class="radioButton">New York City</label>
+<!-- Second Set Questions/Answers (revealed after start click) -->
+		<p class="gameQuestions">What is the world's largest island?</p>
+		<label class="radio-inline"><input type="radio" value="0" name="q2" class="radioButton">Hawaii</label>
+		<label class="radio-inline"><input type="radio" value="0" name="q2" class="radioButton">Borneo</label>
+		<label class="radio-inline"><input type="radio" value="0" name="q2" class="radioButton">New Guinea</label>
+		<label class="radio-inline"><input type="radio" value="1" name="q2" class="radioButton">Greenland</label>
+<!-- Third Set Questions/Answers (revealed after start click) -->
+		<p class="gameQuestions">What is the diameter of the Earth?</p>
+		<label class="radio-inline"><input type="radio" value="0" name="q3" class="radioButton">6,500 Miles</label>
+		<label class="radio-inline"><input type="radio" value="1" name="q3" class="radioButton">8,000 Miles</label>
+		<label class="radio-inline"><input type="radio" value="0" name="q3" class="radioButton">7,000 Miles</label>
+		<label class="radio-inline"><input type="radio" value="0" name="q3" class="radioButton">7,700 Miles</label>
+<!-- Third Set Questions/Answers (revealed after start click) -->
+		<p class="gameQuestions">What kind of weapon is a falchion?</p>
+		<label class="radio-inline"><input type="radio" value="0" name="q4" class="radioButton">Axe</label>
+		<label class="radio-inline"><input type="radio" value="1" name="q4" class="radioButton">Sword</label>
+		<label class="radio-inline"><input type="radio" value="0" name="q4" class="radioButton">Dagger</label>
+		<label class="radio-inline"><input type="radio" value="0" name="q4" class="radioButton">Toothpick</label>
+<!-- Third Set Questions/Answers (revealed after start click) -->
+		<p class="gameQuestions">What colour jersey is worn by the winners of each stage of the Tour De France? </p>
+		<label class="radio-inline"><input type="radio" value="1" name="q5" class="radioButton">Yellow</label>
+		<label class="radio-inline"><input type="radio" value="0" name="q5" class="radioButton">Green</label>
+		<label class="radio-inline"><input type="radio" value="0" name="q5" class="radioButton">Teal</label>
+		<label class="radio-inline"><input type="radio" value="0" name="q5" class="radioButton">Orange</label>
+		<br>
+<!--Submit Button -->
+	<div id="submitButtonDiv">
+		<button type="button" class="btn text-center" id="submitButton"><h2 id="submitButtonText">SUBMIT</h2></button>
+	</div>
+	</div> <!-- .gameSection (Questions/Answers Div) -->
+
+	<div class="gameContentStyle gameOver" style="display: none;">
+		<p class="loserText">Sorry, you're too slow for Fast Trivia!</p>
+		<h2>Your Score: Currently having technical difficulties, please check back at a later time.</h2>
+	</div>
+
+</div> <!-- Container Div -->
+ 
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+/*---*/
+* {
+	box-sizing: border-box;
+}
+body {
+	background: url('../images/background.jpg'); 
+	background-repeat: repeat-y;
+	background-size: cover;
+}
+#header {
+	border-style: solid;
+	border-width: 12px;
+	border-color: black;
+	background-color: #ddd5d0;
+	margin-top: 25px;
+}
+#titleText {
+	color: black;
+	text-align: center;
+	font-family:'Faster One', serif;
+	font-size: 102px;
+}
+.gameContentStyle {
+	background-color: #ddd5d0;
+	border-style: solid;
+	border-color: black;
+	border-width: 12px;
+	margin-top: 25px;
+	text-align: center;
+}
+#startGameButton {
+	width: 425px;
+	height: 125px;
+	margin-top: 45px;
+	border-style: dashed;
+	border-color: black;
+	border-width: 6px;
+}
+#startButtonText {
+	font-color: #ddd5d0;
+	font-family: 'Faster One', serif;
+	font-size: 72px;
+}
+#startButtonDiv{
+	min-height: 250px;
+}
+p.gameQuestions {
+	font-family: 'Inconsolata', 'Roboto', 'Helvetica Neue', serif;
+	font-size: 36px;
+	margin-top: 25px;
+	padding: 10px;
+	font-style: italic;
+	font-weight: 600px;
+}
+.radio-inline {
+	font-family: 'Inconsolata', 'Roboto', 'Helvetica Neue', serif;
+	font-size: 24px;
+}
+#timerCountDown {
+	font-family:'Faster One', 'Inconsolata', serif;
+	font-color: red;
+	font-size: 36px;
+}
+#submitButton {
+	width: 400px;
+	height: 100px;
+	margin-bottom: 25px;
+	border-style: dashed;
+	border-color: black;
+	border-width: 6px;
+}
+#submitButtonText {
+	font-family: 'Faster One', serif;
+	font-size: 42px;
+}
+#submitButtonDiv {
+	padding-top: 35px;
+}
+.loserText {
+	font-family:'Faster One', 'Inconsolata', serif;
+	font-size: 36px;
+}
+.gameOver {
+	height: 400px; 
+}
